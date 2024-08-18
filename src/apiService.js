@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'https://assingment-dash.onrender.com';
+const API_BASE_URL = 'https://assingment1-api-1.onrender.com/api';
 
 export async function fetchSalesOverTime(){
     const response = await fetch(`${API_BASE_URL}/sales-over-time`);
